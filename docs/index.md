@@ -52,9 +52,9 @@ pageClass: releaseList
         }
         if(node.tagName == 'UL'){
           if(i == 3 || i == 5){
-            fragments += `<a href="//chn-iscreen-release.nmtree.com/release/${release}/iscreen.asar?v=${+new Date()}" target="_blank" class="sealui-button is-success"><i class="sealui-icon-download"></i><span>下载 ${release} 测试版</span></a>`;
+            fragments += `<a href="//chn-iscreen-release.nmtree.com/${release}/iscreen.asar?v=${+new Date()}" target="_blank" class="sealui-button is-success"><i class="sealui-icon-download"></i><span>下载 ${release} 测试版</span></a>`;
           }else{
-            fragments += `<a href="//chn-iscreen-release.nmtree.com/release/${release}/iscreen.asar?v=${+new Date()}" target="_blank" class="sealui-button is-warning"><span>下载 ${release} 测试版</span></a>`;
+            fragments += `<a href="//chn-iscreen-release.nmtree.com/${release}/iscreen.asar?v=${+new Date()}" target="_blank" class="sealui-button is-warning"><span>下载 ${release} 测试版</span></a>`;
           }
           
         }
