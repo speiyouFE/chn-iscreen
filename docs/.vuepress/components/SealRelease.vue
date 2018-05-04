@@ -10,5 +10,5 @@
     margin 0px auto
     background #fff
     border-radius 4px
-    border 1px solid #EBEEF5
+    border 1px solid #EBEEF5;
 </style>
