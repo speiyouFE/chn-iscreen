@@ -1,0 +1,82 @@
+@require './config'
+
+.custom-block
+  p
+    margin 0
+  .custom-block-title
+    font-weight 600
+    margin-bottom 0.25rem
+    font-size 1.5em
+    text-transform uppercase
+  &.tip, &.warning, &.danger, &.success, &.info, &.dark
+    padding .5rem 1.5rem
+    border-left-width .3rem
+    border-left-style solid
+    margin 1rem 0
+  &.tip
+    background-color lighten(#f3f5f7,50%)
+    border-color darken(#eee,10%)
+    .custom-block-title
+      color darken(#eee, 50%)
+  &.warning
+    background-color rgba(255,229,100,.3)
+    border-color darken($warning, 15%)
+    color darken($warning, 70%)
+    .custom-block-title
+      color darken($warning, 50%)
+
+  &.danger
+    background-color #ffe6e6
+    border-color darken($danger, 15%)
+    color darken($danger, 70%)
+    .custom-block-title
+      color darken($danger, 40%)
+  &.success
+    background-color lighten($success,90%)
+    border-color darken($success, 15%)
+    color darken($success, 70%)
+    .custom-block-title
+      color darken($success, 40%)
+  &.info
+    background-color lighten($info,90%)
+    border-color darken($info, 15%)
+    color darken($info, 70%)
+    .custom-block-title
+      color darken($info, 40%)
+  &.dark
+    background-color lighten($dark,90%)
+    border-color darken($dark, 15%)
+    color darken($dark, 70%)
+    .custom-block-title
+      color darken($dark, 40%)
+
+.custom-item--list
+  margin 1rem 0
+  p,h2,ul,li
+    margin 0
+    padding 0
+  li
+    list-style-type none
+  h2
+    border 0 none
+    font-size 1rem
+  .custom-item--list__title
+    font-weight 600
+    color darken(#eee, 60%)
+  &.danger
+    .custom-item--list__title
+      color $danger
+  &.success
+    .custom-item--list__title
+      color $success
+  &.warning
+    .custom-item--list__title
+      color $warning
+  &.dark
+    .custom-item--list__title
+      color $dark
+  &.info
+    .custom-item--list__title
+      color $info
+  .custom-item--list__content
+    padding 0.5rem 0 0 0
