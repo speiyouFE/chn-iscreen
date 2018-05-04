@@ -1,7 +1,7 @@
 ## 更新日志
 
 ### 0526
-:package: *2017-05-05 00:05*
+:package: *2017-05-05 00:06*
 - **版本详情**:
   - ✨ 配合四合一版本
   - ……
@@ -9,7 +9,7 @@
   该版本必须使用最新的推拉流客户端。切记！！！<br /><br />
   该版本包含近期所有新增功能和优化点<br />
   该版本上线时间预计：**2018-05-26**，请勿越前使用！！<br />
-  如果使用`asar`覆盖方式，请下载 [**KMAudio.dll**](//chn-iscreen-release.nmtree.com/0510/KMAudio.dll) 放在 `system32` 下面，否则请忽略 `KMAudio.dll` 文件
+  如果使用`asar`覆盖方式，请下载 [**KMAudio.dll**](//chn-iscreen-release.nmtree.com/0526/KMAudio.dll) 放在 `system32` 下面，否则请忽略 `KMAudio.dll` 文件
 :::
 
 ### 0510
