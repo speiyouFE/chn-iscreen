@@ -19,7 +19,7 @@
 :::danger Notice
   该版本包含近期所有新增功能和优化点<br />
   该版本上线时间：**2018-05-10**，请勿越前使用！！<br />
-  如果使用`asar`覆盖方式，请下载 [**KMAudio.dll**](https://chn-iscreen-release.nmtree.com/0510/KMAudio.dll) 放在 `system32` 下面，否则请忽略 `KMAudio.dll` 文件
+  如果使用`asar`覆盖方式，请下载 [**KMAudio.dll**](//chn-iscreen-release.nmtree.com/0510/KMAudio.dll) 放在 `system32` 下面，否则请忽略 `KMAudio.dll` 文件
 :::
 
 ### 0504
