@@ -1,5 +1,16 @@
 ## 更新日志
 
+### 0526
+:package: *2017-05-05 00:05*
+- **版本详情**:
+  - ✨ 配合四合一版本
+  - ……
+:::danger Notice
+  该版本包含近期所有新增功能和优化点<br />
+  该版本上线时间预计：**2018-05-26**，请勿越前使用！！<br />
+  如果使用`asar`覆盖方式，请下载 [**KMAudio.dll**](//chn-iscreen-release.nmtree.com/0510/KMAudio.dll) 放在 `system32` 下面，否则请忽略 `KMAudio.dll` 文件
+:::
+
 ### 0510
 :alarm_clock: <span>*2017-05-04 16:55*</span> 
 
@@ -16,11 +27,6 @@
   - ✨  新增 连续多次抢红包
   - 🔨  重构 新版答题器，引入新的答题器`node`包，修改答题器键值
   - ……
-:::danger Notice
-  该版本包含近期所有新增功能和优化点<br />
-  该版本上线时间：**2018-05-10**，请勿越前使用！！<br />
-  如果使用`asar`覆盖方式，请下载 [**KMAudio.dll**](//chn-iscreen-release.nmtree.com/0510/KMAudio.dll) 放在 `system32` 下面，否则请忽略 `KMAudio.dll` 文件
-:::
 
 ### 0504
 :package: *2017-05-04 14:50*
