@@ -76,7 +76,7 @@ pageClass: releaseList
         <a href="http://ssgitlab.speiyou.com/chinese/iscreen/repository/archive.tar?ref=dev" target="_blank" class="">GitLab Releases</a>
       </button>
       <i class="sealui-icon-man"></i>大语文 <em style="font-weight: bold;color:#505050;font-style: normal;">课中互动包</em> 更新日志
-      <p style="margin:0;padding:0;color:rgba(0,0,0,.3);font-size: 14px;">注意：所有包均为内部测试包，请跟进实际需要自行下载。</p>
+      <p style="margin:0;padding:0;color:rgba(0,0,0,.3);font-size: 14px;">注意：所有包均为内部测试包，请跟进实际需要自行下载</p>
     </div>
     <ul class="sealui-timeline" ref="timeline"></ul>
     <change-log ref="changeLog"></change-log>
