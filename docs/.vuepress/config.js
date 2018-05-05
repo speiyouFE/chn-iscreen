@@ -7,7 +7,7 @@ module.exports = {
   title: '',
   description: '',
   head: [
-    ['link', { rel: 'icon', href: `https://res.nmtree.com/favicon.ico` }],
+    ['link', { rel: 'icon', href: `/favicon.ico` }],
     ['link',{ rel: 'stylesheet', href:`https://fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto%20Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT%20Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext`}],
     ['script',{src:`https://cdn.bootcss.com/vue/2.5.17-beta.0/vue.min.js`}]
   ],
