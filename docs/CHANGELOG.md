@@ -1,25 +1,27 @@
+
 ## 更新日志
 
-### 0526
-:alarm_clock: <span>*2017-05-05 18:18*</span> 
+:::topic
+  ### 四合一内部测试版
+  :alarm_clock: <span>*2017-05-05 18:18*</span> 
+  - **更新详情**:
+    - 🐛  修复 答题器node包
 
-:::list 更新详情:
-  - 🐛  修复 答题器node包
-:::
-
-:package: *2017-05-05 00:06*
-- **版本详情**:
-  - ✨ 配合四合一版本
+  :package: *2017-05-05 00:06*
+  - **版本详情**:
+    - ✨ 配合四合一版本
   - ……
-:::danger Notice
-  该版本必须使用**最新的推拉流客户端**，切记！！！<br />
+  
+  > 该版本必须使用**最新的推拉流客户端**，切记！！！<br />
   该版本包含近期所有新增功能和优化点<br />
   该版本上线时间预计：**2018-05-26**，请勿越前使用！！
+
+  <a href="//chn-iscreen-release.nmtree.com/0526/iscreen.asar" target="_blank" class="sealui-button is-danger"><i class="sealui-icon-download"></i><span>下载 四合一内部测试版 测试版</span></a>
 :::
+
 
 ### 0510
 :alarm_clock: <span>*2017-05-04 16:55*</span> 
-
 :::list 更新详情:
   - ✨  新增 答题器宣传视频
   - 📈  答题器`node`包新增`KM1.0`绑定事件上报

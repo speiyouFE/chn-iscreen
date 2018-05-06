@@ -19,10 +19,16 @@ pageClass: releaseList
     mounted() {
       const changeLog = this.$refs.changeLog;
       const changeLogNodes = changeLog.$el.children;
-      let a = changeLogNodes[1].querySelector('a');
-      a && a.remove();
+      // let a = changeLogNodes[1].querySelector('a');
+      // a && a.remove();
       console.log(changeLogNodes)
-      let release = changeLogNodes[1].textContent.trim();
+      let node_i = 3;
+      if(changeLogNodes[1].tagName === 'DIV'){
+        node_i = 4
+        let topic = changeLogNodes[1].outerHTML
+        this.$refs.topic.innerHTML = `${topic}`
+      }
+      let release = changeLogNodes[2].textContent.trim();
       //let fragments = `<li><h3><a href="javascript:;" target="_blank">${release}</a></h3>`;
       let fragments = `<li class="sealui-timeline--item is-success">
                         <div class="sealui-timeline--item__tail"></div>
@@ -31,7 +37,7 @@ pageClass: releaseList
                         </div>
                         <div class="sealui-timeline--item__content">
                           <h3>当前版本号: ${release}<sup class="sealui-badge__content is-fixed">new</sup></h3>`;
-      for (let len = changeLogNodes.length, i = 2; i < len; i++) {
+      for (let len = changeLogNodes.length, i = node_i-1; i < len; i++) {
         let node = changeLogNodes[i];
         //a = changeLogNodes[i].querySelector('a');
         //a && a.remove();
@@ -51,7 +57,7 @@ pageClass: releaseList
           //fragments += `</li><li><h3><a href="javascript:;" target="_blank">${release}</a></h3>`;
         }
         if(node.tagName == 'UL'){
-          if(i == 3 || i == 5){
+          if(i == node_i || i == node_i+2){
             fragments += `<a href="//chn-iscreen-release.nmtree.com/${release}/iscreen.asar?v=${+new Date()}" target="_blank" class="sealui-button is-success"><i class="sealui-icon-download"></i><span>下载 ${release} 测试版</span></a>`;
           }else{
             fragments += `<a href="//chn-iscreen-release.nmtree.com/${release}/iscreen.asar?v=${+new Date()}" target="_blank" class="sealui-button is-warning"><span>下载 ${release} 测试版</span></a>`;
@@ -78,6 +84,7 @@ pageClass: releaseList
       <i class="sealui-icon-man"></i>大语文 <em style="font-weight: bold;color:#505050;font-style: normal;">课中互动包</em> 更新日志
       <p style="margin:0;padding:0;color:rgba(0,0,0,.3);font-size: 14px;">注意：所有包均为内部测试包，请跟进实际需要自行下载</p>
     </div>
+    <div class="topic" ref="topic"></div>
     <ul class="sealui-timeline" ref="timeline"></ul>
     <change-log ref="changeLog"></change-log>
   </div>
@@ -111,43 +118,43 @@ pageClass: releaseList
         float right
     .sealui-timeline
       padding-top: 2rem;
-  .sealui-timeline--item
-    padding-bottom 2rem
-  .sealui-timeline--item__content
-    color #303133
-    font-size 1rem
-    h3
-      font-size 1.3rem
-      position relative;
-      display inline-block; 
-      padding-bottom 1rem
-    p
+    .sealui-timeline--item
+      padding-bottom 2rem
+    .sealui-timeline--item__content
+      color #303133
       font-size 1rem
-      padding 0
-      color inherit
-      line-height inherit
-      em
-        font-style normal
-        font-weight 600
-        color #23b7e5
-        padding-left .2rem
-      & span > em
-        color #20A0FF
-    ul
-      padding 0.5rem 0
-      margin 0
-      position relative;
-      & > li 
-        list-style-type: none;
-        font-size: 1rem
-        a
-          color:#23b7e5
-          &:hover
-            color #09bb07
+      h3
+        font-size 1.3rem
+        position relative;
+        display inline-block; 
+        padding-bottom 1rem
+      p
+        font-size 1rem
+        padding 0
+        color inherit
+        line-height inherit
+        em
+          font-style normal
+          font-weight 600
+          color #23b7e5
+          padding-left .2rem
+        & span > em
+          color #20A0FF
       ul
-        padding 0 0 0 1rem
-    .sealui-button
-      margin-top:1rem
+        padding 0.5rem 0
+        margin 0
+        position relative;
+        & > li 
+          list-style-type: none;
+          font-size: 1rem
+          a
+            color:#23b7e5
+            &:hover
+              color #09bb07
+        ul
+          padding 0 0 0 1rem
+      .sealui-button
+        margin-top:1rem
   .sealui-timeline--item__head
     top 2px
   .sealui-timeline--item:first-child .sealui-timeline--item__head i
@@ -163,6 +170,41 @@ pageClass: releaseList
       font-weight 600
     ul 
       padding 0 0 0 1rem
+
+  .topic-content
+    background-color lighten(#e64340,95%)
+    border 1px solid lighten(#e64340,90%)
+    padding 1rem
+    margin 1rem 0 0 0
+    border-radius 6px
+    h3
+      font-size 1.3rem
+      position relative;
+      display inline-block; 
+      padding-bottom 1rem
+      line-height 1.2
+      padding 0 0 1rem 0 
+      margin 0
+      color #e64340
+    ul,li
+      padding 0
+      margin 0
+      list-style-type none
+    ul
+      padding-bottom 1rem
+    p
+      font-size 1rem
+      padding 0
+      margin 0
+      color inherit
+      line-height inherit
+      em
+        font-style normal
+        font-weight 600
+        color #23b7e5
+        padding-left .2rem
+      & span > em
+        color #20A0FF
   @media (max-width: 419px ) and (max-width: 959px) 
     #app
       overflow hidden
