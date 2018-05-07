@@ -4,6 +4,17 @@ sidebar: false
 
 # 演示
 
+:::demo
+  <template>
+  <div class="vue-demo">
+    <SealButton type="danger">红色按钮</SealButton>
+    <SealButton type="success">绿色按钮</SealButton>
+    <SealAlert type="success" title="提示信息" description="提示内容"></SealAlert>
+    <SealAlert>提示</SealAlert>
+    <SealAvatar icon="user" shape="square"></SealAvatar>
+  </div>  
+</template>
+:::
 ## 强提示
 :::tip  
 adas
