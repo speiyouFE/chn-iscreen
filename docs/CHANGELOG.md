@@ -21,7 +21,7 @@
   该版本包含近期所有新增功能和优化点<br />
   该版本上线时间预计：**2018-05-26**，请勿越前使用！！
 
-  <a href="//chn-iscreen-release.nmtree.com/0526/iscreen.asar" target="_blank" class="sealui-button is-danger"><i class="sealui-icon-download"></i><span>下载 四合一内部测试版 测试版</span></a>
+  <a href="//chn-iscreen-release.nmtree.com/0526/iscreen.asar?v=1" target="_blank" class="sealui-button is-danger"><i class="sealui-icon-download"></i><span>下载 四合一内部测试版 测试版</span></a>
 :::
 
 
