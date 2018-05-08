@@ -7,7 +7,6 @@
     <slot name="source"></slot>
     <div class="description">
       <slot></slot>
-
       	<i :class="[iconClass, { 'hovering': hovering }]" @click="isExpanded = !isExpanded"></i>
 
     </div>
@@ -24,7 +23,7 @@
   </div>
 </template>
 
-<style>
+<style lang="stylus">
   .demo-block {
     border: solid 1px #e9e9e9;
     border-radius: 4px;
@@ -138,7 +137,7 @@
         margin: 0;
         border: none;
         max-height: none;
-        padding-top: 18px;
+        padding-top:0px;
         &::-webkit-scrollbar-thumb {
 				    background-color: #e6e6e6;
 				    border-radius: 4px;
@@ -251,7 +250,7 @@
     computed: {
 
       blockClass() {
-        return `demo-${ this.$router.currentRoute.path.split('/').pop() }`;
+        //return `demo-${ this.$router.currentRoute.path.split('/').pop() }`;
       },
 
       iconClass() {

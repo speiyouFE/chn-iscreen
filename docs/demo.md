@@ -4,17 +4,21 @@ sidebar: false
 
 # 演示
 
-:::demo
-  <template>
-  <div class="vue-demo">
-    <SealButton type="danger">红色按钮</SealButton>
-    <SealButton type="success">绿色按钮</SealButton>
-    <SealAlert type="success" title="提示信息" description="提示内容"></SealAlert>
-    <SealAlert>提示</SealAlert>
-    <SealAvatar icon="user" shape="square"></SealAvatar>
-  </div>  
+:::demo Button 组件默认提供7种主题，由`type`属性来定义，默认为`default`。
+
+```html
+<template>
+  <seal-button>默认按钮</seal-button>
+  <seal-button type="primary">主要按钮</seal-button>
+  <seal-button type="success">文字按钮</seal-button>
+  <seal-button type="warning">默认按钮</seal-button>
+  <seal-button type="danger">主要按钮</seal-button>
+  <seal-button type="info">文字按钮</seal-button>
+  <seal-button type="dark">文字按钮</seal-button>
 </template>
+```
 :::
+
 ## 强提示
 :::tip  
 adas

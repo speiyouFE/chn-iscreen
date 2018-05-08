@@ -20,8 +20,14 @@
   "homepage": "http://sealui.com",
   "license": "MIT",
   "engines": {
-    "node": ">=6.5.0"
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
   },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
   "devDependencies": {
     "cheerio": "^1.0.0-rc.2",
     "cp-cli": "^1.0.2",
