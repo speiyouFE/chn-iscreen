@@ -3,8 +3,10 @@
 
 :::topic
   ### 四合一内部测试版
-  :alarm_clock: <span>*2017-05-05 18:18*</span> 
+  :alarm_clock: <span>*2017-05-08 17:11*</span> 
   - **更新详情**:
+    - 🐛  修复 答题器node包bug
+    - 🍋  更新 宣传视频文件
     - ✨  <font color="dc0000">新增 语音题弹幕类型控制</font>
     - ✨  <font color="dc0000">新增 答题器宣传视频、引导动画播放次数监控</font>
     - 🐛  修复 答题器node包
@@ -24,8 +26,9 @@
 
 
 ### 0510
-:alarm_clock: <span>*2017-05-08 12:40*</span> 
+:alarm_clock: <span>*2017-05-08 17:41*</span> 
 :::list 更新详情:
+  - 🍋  更新 宣传视频文件
   - ✨  <font color="dc0000">新增 语音题弹幕类型控制</font>
   - ✨  <font color="dc0000">新增 答题器宣传视频、引导动画播放次数监控</font>
   - ✨  新增 答题器宣传视频
