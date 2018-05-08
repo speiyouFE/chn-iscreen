@@ -3,8 +3,9 @@
 
 :::topic
   ### 四合一内部测试版
-  :alarm_clock: <span>*2017-05-08 17:11*</span> 
+  :alarm_clock: <span>*2017-05-08 22:55*</span> 
   - **更新详情**:
+    - 🐛  修复 语音文件上传到阿里云，课程id路径名字和语音文件名称
     - 🐛  修复 答题器node包bug
     - 🍋  更新 宣传视频文件
     - ✨  <font color="dc0000">新增 语音题弹幕类型控制</font>
@@ -21,7 +22,7 @@
   该版本包含近期所有新增功能和优化点<br />
   该版本上线时间预计：**2018-05-26**，请勿越前使用！！
 
-  <a href="//chn-iscreen-release.nmtree.com/0526/iscreen.asar?v=1" target="_blank" class="sealui-button is-danger"><i class="sealui-icon-download"></i><span>下载 四合一内部测试版 测试版</span></a>
+  <a href="//chn-iscreen-release.nmtree.com/0526/iscreen.asar?v=2" target="_blank" class="sealui-button is-danger"><i class="sealui-icon-download"></i><span>下载 四合一内部测试版 测试版</span></a>
 :::
 
 
