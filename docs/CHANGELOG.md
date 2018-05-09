@@ -27,7 +27,7 @@
 
 
 ### 0510
-:alarm_clock: <span>*2017-05-08 17:41*</span> 
+:alarm_clock: <span>*2017-05-09 10:52*</span> 
 :::list 更新详情:
   - 🍋  更新 宣传视频文件
   - ✨  <font color="dc0000">新增 语音题弹幕类型控制</font>
